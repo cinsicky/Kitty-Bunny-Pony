@@ -1,0 +1,42 @@
+.name{
+	position: relative;
+}
+.detail-circle1{
+	z-index: -1;
+}
+.detail4 .name{
+	width: 100%;
+}
+.detail4 .top-detail{
+	width: 50%;
+}
+.detail4 .down-detailP{
+	width: 100%;
+	margin: 0px;
+}
+.detail4 .down-detail{
+	width: 49%;
+}
+.detail4 .detail-section{
+	margin-top: 30px;
+}
+.detail4 .detail-circle1{
+	top:48%
+}
+.detail6 .name{
+	width: 100%;
+}
+.detail6 .top-detail{
+	width: 50%;
+}
+.detail6 .down-detailP{
+	width: 100%;
+	margin: 0px;
+}
+.detail6 .down-detail{
+	width: 32%;
+}
+
+.detail6 .detail-circle1{
+	top:48%
+}

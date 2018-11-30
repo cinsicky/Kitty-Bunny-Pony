@@ -1,0 +1,161 @@
+/*Detail Content*/
+
+.detail1 {
+	background-color: rgb(25, 122, 81);
+	color: white;
+}
+.detail1 .top-detail{
+	width: 40%;
+}
+.detail2 {
+	background-color: rgb(25, 122, 81);
+	color: white;
+}
+.detail2 .name {
+	position: relative;
+}
+
+.detail3 {
+	background-color: rgb(17, 64, 145);
+	color: white;
+}
+
+.detail3 .name {
+	position: relative;
+}
+
+.detail4 {
+	background-color: rgb(17, 64, 145);
+	color: white;
+}
+
+.detail4 .name {
+	position: relative;
+}
+
+.detail5 {
+	background-color: #4d9358;
+	color: white;
+}
+
+.detail5 .top-detail {
+	width: 45%;
+}
+
+.detail5 .down-detail {
+	width: 33%;
+}
+
+.detail5 .top-detailP {
+	width: 51%;
+}
+
+.detail5 .down-detailP {
+	width: 64%;
+}
+
+.detail6 {
+	background-color: #cb4434;
+	color: white;
+}
+/*Circle*/
+
+.detail-circle1 {
+	position: absolute;
+	top: 16%;
+	left: 51%;
+	height: 70px;
+	width: 70px;
+	background-color: rgb(13, 51, 87);
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.detail-circle2 {
+	position: absolute;
+	top: 8%;
+	right: -35px;
+	height: 70px;
+	width: 70px;
+	background-color: rgb(253, 204, 0);
+	border-radius: 50%;
+	z-index: 10;
+}
+
+.detail2-circle1 {
+	background-color: rgb(253, 204, 0);
+}
+
+.detail2-circle2 {
+	background-color: rgb(13, 51, 87);
+}
+
+.detail3-circle1 {
+	background-color: rgb(248, 212, 66);
+	z-index: -1;
+}
+
+.detail3-circle2 {
+	background-color: rgb(197, 125, 76);
+}
+
+.detail4-circle1 {
+	background-color: rgb(248, 212, 66);
+	z-index: -1;
+}
+
+.detail4-circle2 {
+	background-color: rgb(197, 125, 76);
+}
+
+.detail5-circle1 {
+	background-color: #f8d442;
+	left: 58%;
+}
+
+.detail5-circle2 {
+	background-color: #f37d30;
+}
+
+.detail6-circle1 {
+	background-color: #f8d442;
+}
+
+.detail6-circle2 {
+	background-color: #28559e;
+}
+
+@media only screen and (max-width: 1040px) {
+	.detail5-circle1 {
+		z-index: -1;
+	}
+	.detail1 .name{
+		width: 100%;
+		position: relative;
+	}
+	.detail1 .top-detail{
+	width: 56%;
+}
+}
+
+@media only screen and (max-width: 870px) {
+	.name {
+		font-size: 2.5vw;
+	}
+	.detail2-circle1 {
+		display: none;
+	}
+	.detail3-circle1 {
+		display: none;
+	}
+	.detail4-circle1 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 530px) {
+	.name {
+		width: 100%;
+		font-size: 4.5vw;
+	}
+}
